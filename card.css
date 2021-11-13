@@ -1,0 +1,29 @@
+.cardbody{
+    border: 2px solid blue;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-style: italic;
+    margin: 2%;
+    padding: 3%;
+    color: rgb(44, 10, 231);
+    width: auto;
+    border-radius: 5%;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(42, 131, 214);
+}
+.cardbody img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        width: 90px;
+        font-size: 30px;
+    }
+}
+    

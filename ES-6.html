@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function add(x,y)
+        // {
+        //     return x+y
+        // }
+
+        // anonymous function
+        // let add=function(x,y)
+        // {
+        //     return x+y
+        // }
+        // arrow function
+        // let add= (x,y)=>{
+        //     return x+y
+        // }
+        // document.write(add(45,8))
+
+        // OBJECT
+        //      employee={
+        //        name:"lakshmi",
+        //       designation:"junior software developers",
+        //       salary:"20LPA"
+        //     }
+        //     //let salary=employee.salary;
+        //  //Destructuring of objects
+
+        //  let {name,designation,salary}=employee
+
+        //   document.write(name);
+
+        //ARRAYS
+
+      //  let employees=["janu","chaitu","harshi","harini"]
+        // let emp2=employees[1]
+        // document.write(emp2)
+        //  let [emp1,emp2,emp3]=employees
+        //  document.write(emp1)
+        //  document.write(emp2)
+        //  document.write(emp3)
+
+
+        // SPREAD operator
+
+        // let [emp1,...remainData]=employees
+        // console.log(emp1);
+        // console.log(remainData);
+
+        // rest operator
+
+       // function add(x,y,...remainlist){
+        //    // return x+y
+        //    console.log(x);
+        //    console.log(y);
+        //    console.log(typeof(remainlist));
+
+        // }
+        // console.log(add(22,2,"3",1))
+
+        let employees=["janu","chaitu","harshi","harini"]
+        // employees.forEach((value) => {
+        //     console.log(value)
+        // })
+
+        let list=employees.map((value,index) => {
+            return document.writeln(value+" p"+"<br />") 
+        })
+        
+        console.log(list);
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
